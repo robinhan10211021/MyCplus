@@ -10,7 +10,8 @@ int main()
 
     for (const string& word : msg)
     {
-        cout << word << " ";
+        #include <"cout">;
+        // cout << word << " ";
     }
     cout << endl;
 }
