@@ -1,12 +1,12 @@
 [
 {
   "directory": "/workspace/MyCplus/cmakeQuickStart/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/good.cpp.o -c /workspace/MyCplus/cmakeQuickStart/good.cpp",
-  "file": "/workspace/MyCplus/cmakeQuickStart/good.cpp"
+  "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/source/good.cpp.o -c /workspace/MyCplus/cmakeQuickStart/source/good.cpp",
+  "file": "/workspace/MyCplus/cmakeQuickStart/source/good.cpp"
 },
 {
   "directory": "/workspace/MyCplus/cmakeQuickStart/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/main.cpp.o -c /workspace/MyCplus/cmakeQuickStart/main.cpp",
-  "file": "/workspace/MyCplus/cmakeQuickStart/main.cpp"
+  "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/source/main.cpp.o -c /workspace/MyCplus/cmakeQuickStart/source/main.cpp",
+  "file": "/workspace/MyCplus/cmakeQuickStart/source/main.cpp"
 }
 ]

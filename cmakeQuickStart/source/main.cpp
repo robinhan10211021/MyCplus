@@ -3,5 +3,5 @@
 int good();
 
 int main(int, char**) {
-    std::cout << good();
+    std::cout << good() << std::endl;
 }

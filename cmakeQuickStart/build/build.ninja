@@ -217,17 +217,17 @@ build ContinuousSubmit: phony CMakeFiles/ContinuousSubmit
 
 build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 
-build CMakeFiles/main.dir/good.cpp.o: CXX_COMPILER__main_Debug /workspace/MyCplus/cmakeQuickStart/good.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles/main.dir/good.cpp.o.d
+build CMakeFiles/main.dir/source/good.cpp.o: CXX_COMPILER__main_Debug /workspace/MyCplus/cmakeQuickStart/source/good.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/source/good.cpp.o.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/main.dir
-  OBJECT_FILE_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/source
 
-build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /workspace/MyCplus/cmakeQuickStart/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles/main.dir/main.cpp.o.d
+build CMakeFiles/main.dir/source/main.cpp.o: CXX_COMPILER__main_Debug /workspace/MyCplus/cmakeQuickStart/source/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/source/main.cpp.o.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/main.dir
-  OBJECT_FILE_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/source
 
 
 # =============================================================================
@@ -237,7 +237,7 @@ build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /workspace/MyCplu
 #############################################
 # Link the executable main
 
-build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/good.cpp.o CMakeFiles/main.dir/main.cpp.o
+build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/source/good.cpp.o CMakeFiles/main.dir/source/main.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   OBJECT_DIR = CMakeFiles/main.dir

@@ -4,7 +4,7 @@ project(main VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-aux_source_directory(. DIR_SRCS)
+aux_source_directory(source DIR_SRCS)
 
 add_executable(main ${DIR_SRCS})
 
