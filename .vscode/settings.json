@@ -29,5 +29,6 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ]
+  ],
+  "cmake.sourceDirectory": "${workspaceFolder}/cmakeQuickStart"
 }
